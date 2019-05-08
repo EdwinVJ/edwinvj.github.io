@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#nombre {
+    top: 20px;
+    height: 80px;
+    padding: 8px;
+    text-align: center;
+    color: #333333;
+    position: relative;
+    font-family: Curlz MT;
+}
+
+#resumen {
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    padding: 8px;
+    text-align: justify;
+}
+
+#titulos {
+    font-family: fantasy;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+#img {
+    margin-left: 35%;
+    height: 250px;
+    width: 450px;
+}
+
+#conte {
+    margin: 50px;
+    width: 90%;
+    text-align: justify;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    padding: 8px;
+}
