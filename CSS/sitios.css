@@ -4,16 +4,17 @@
     }
     
     .banner {
-        top: 60px;
-        width: 100%;
+        width: 100px;
         height: 300px;
-        animation: banner, 12s, infinite;
+        animation-name: baner;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
     }
     
     @keyframes banner {
         0%,
         30% {
-            background-image: url(img/banner.PNG);
+            background-image: url(../CSS/img/banner2.jpg);
             opacity: 1;
         }
         31%,
@@ -22,7 +23,7 @@
         }
         35%,
         60% {
-            background-image: url(img/banner2.jpg);
+            background-image: url(../CSS/img/banner.PNG);
             opacity: 1;
         }
         61%,
@@ -31,7 +32,7 @@
         }
         65%,
         100% {
-            background-image: url(img/banner3.jpg);
+            background-image: url(../CSS/img/banner3.jpg);
             opacity: 1;
         }
     }
