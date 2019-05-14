@@ -43,6 +43,28 @@
         }
     }
     
+    .banner a {
+        margin: 200px 150px;
+        float: left;
+        color: #ffffff;
+        text-decoration: none;
+        border: solid 3px;
+        font-size: 40px;
+        padding: 5px;
+    }
+    
+    .banner a:hover {
+        background: rgb(102, 102, 101);
+    }
+    
+    #titulo {
+        float: right;
+        color: #ffffff;
+        font-size: 60px;
+        font-family: 'Brush Script MT', Arial, Helvetica, sans-serif;
+        margin-right: 10px;
+    }
+    
     #nombre {
         top: 20px;
         height: 80px;
