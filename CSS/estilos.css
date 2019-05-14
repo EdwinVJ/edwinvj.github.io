@@ -45,3 +45,8 @@ h1 {
 .info p {
     padding: 5px;
 }
+
+table {
+    float: right;
+    margin-right: 50px;
+}
