@@ -9,6 +9,7 @@
         animation-name: baner;
         animation-duration: 12s;
         animation-iteration-count: infinite;
+        position: relative;
     }
     
     @keyframes baner {
@@ -66,7 +67,7 @@
     }
     
     #resumen {
-        display: none;
+        text-align: justify;
     }
     
     #titulos {
