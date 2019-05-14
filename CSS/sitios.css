@@ -67,7 +67,12 @@
     }
     
     #resumen {
+        margin-top: 50px;
         text-align: justify;
+        width: 94%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        margin: auto;
     }
     
     #titulos {
