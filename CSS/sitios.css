@@ -65,21 +65,8 @@
         margin-right: 10px;
     }
     
-    #nombre {
-        top: 20px;
-        height: 80px;
-        padding: 8px;
-        text-align: center;
-        color: #333333;
-        position: relative;
-        font-family: Curlz MT;
-    }
-    
     #resumen {
-        text-align: center;
-        font-family: 'Comic Sans MS';
-        padding: 8px;
-        text-align: justify;
+        display: none;
     }
     
     #titulos {
