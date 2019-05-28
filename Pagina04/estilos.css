@@ -99,11 +99,11 @@ aside {
 
 aside h3 {
     margin: 15px 10px;
+    text-align: center;
 }
 
 aside img {
-    margin: 0px 80px;
-    ;
+    margin: 0px 60px;
 }
 
 aside p {
