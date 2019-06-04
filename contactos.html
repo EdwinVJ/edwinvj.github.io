@@ -1,85 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MyFirstPage</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="foundation/css/foundation.min.css">
+    <link rel="stylesheet" href="foundation/css/app.css">
     <link rel="stylesheet" href="CSS/estilos.css">
+
+    <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="ifonts/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+
 </head>
 
 <body>
+    <!--MENU-->
     <header>
-        <div class="contenido">
-            <h1>Edwin Villanueva Julca</h1>
-            <nav class="items">
-                <a href="contactar.html">Contactar</a>
-                <a href="contactos.html">Contactos</a>
-                <a href="sitios.html">Sitios Turirticos</a>
-                <a href="index.html">Inicio</a>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Ingenieria Web</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item active">
+                        <a class="btn btn-outline-light" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="btn btn-outline-light" href="centros.html">Centros Turisticos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="btn btn-outline-light" href="contactos.html">Lista de contactos</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="btn btn-outline-light" href="contactar.html">Contactar</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-light  my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        </nav>
+
     </header>
+    <br>
+    <br>
 
-    <table border="2">
-        <caption>El siguiente index muestra la lista de contactos</caption>
-        <br />
-        <tr>
-            <th colspan="5">CONTACTOS</th>
-        </tr>
-        <tr>
-            <th>Nombre</th>
-            <th>Numero de Celular</th>
-            <th>Correo</th>
-            <th>Dirección</th>
-            <th>Foto</th>
-        </tr>
+    <section class="contactos">
+        <div class="container">
+            <div class="alert alert-dark absolute" role="alert">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/1.PNG" alt="">
+                                <h5 class="card-title">Carlos Alcantara Pacheco</h5>
+                                <p class="card-text">Celular: 945228965</p>
+                                <a href="#" class="btn btn-primary">calcantara@hotmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/2.PNG" alt="">
+                                <h5 class="card-title">Mariana Cacerez Diaz</h5>
+                                <p class="card-text">Celular: 980052469</p>
+                                <a href="#" class="btn btn-primary">m@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <tr>
-            <td>Carlos Rodriguez Ramirez</td>
-            <td>921545862</td>
-            <td><a href="mailto:crodriguez@hotmail.com">crodriguez@hotmail.com</a></td>
-            <td>Av. Los cipreces 512</td>
-            <td><img src="imagenes/1.PNG" alt=""></td>
-        </tr>
-        <tr>
-            <td>Maritza Cueva Zavaleta</td>
-            <td>976542321</td>
-            <td><a href="mailto:mary@gmail.com">mailto:mary@gmail.com</a></td>
-            <td>Jr. Emancipación 412</td>
-            <td><img src="imagenes/2.PNG" alt=""></td>
-        </tr>
-        <tr>
-            <td>Milagros Tasilla Valdivia</td>
-            <td>980526352</td>
-            <td><a href="mailto:mily@hotmail.com">mily@hotmail.com</a></td>
-            <td>Barrio Chontapaccha</td>
-            <td><img src="imagenes/3.PNG" alt=""></td>
-        </tr>
+            <div class="alert alert-light" role="alert">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/3.PNG" alt="">
+                                <h5 class="card-title">Milagros Leiva Paredes</h5>
+                                <p class="card-text">Celular: 980228965</p>
+                                <a href="#" class="btn btn-primary">cparedez@hotmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/4.PNG" alt="">
+                                <h5 class="card-title">Joaquin Ramos Caceres</h5>
+                                <p class="card-text">Celular: 976052469</p>
+                                <a href="#" class="btn btn-primary">ramos@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <tr>
-            <td> Carlos Flores Villanueva </td>
-            <td>981596260</td>
-            <td><a href="mailto:carlos@unc.edu.pe">carlos@unc.edu.pe</a></td>
-            <td>Urb. El ingenio</td>
-            <td><img src="imagenes/4.PNG" alt=""></td>
-        </tr>
-        <tr>
-            <td>Elmer Cueva Zamora</td>
-            <td>958626563</td>
-            <td> <a href="mailto:zamorac@unc.edu.pe">zamorac@unc.edu.pe</a></td>
-            <td>Av. Delfin Cerna 1023</td>
-            <td><img src="imagenes/5.PNG" alt=""></td>
-        </tr>
-        <tr>
-            <td>Aldo Biones Cerna</td>
-            <td>985256354</td>
-            <td><a href=“hotmail:evillanuevaj14@unc.edu.pe”>aldo@hotmail.com</a></td>
-            <td>aV 13 de Julio 962</td>
-            <td><img src="imagenes/6.PNG" alt=""></td>
-        </tr>
-    </table>
+            <div class="alert alert-dark" role="alert">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/5.PNG" alt="">
+                                <h5 class="card-title">Raul Ayala Pinedo</h5>
+                                <p class="card-text">Celular: 920228965</p>
+                                <a href="#" class="btn btn-primary">pinedo@hotmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/6.PNG" alt="">
+                                <h5 class="card-title">Segundo Calua Suarez</h5>
+                                <p class="card-text">Celular: 970052469</p>
+                                <a href="#" class="btn btn-primary">segundo@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <ul class="list-unstyled">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Acerca de</a></li>
+                        <li><a href="">Ultimas noticias</a></li>
+                        <li><a href="">Contactame</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4">
+                    <ul class="list-unstyled">
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Linkedin</a></li>
+                        <li><a href="">Gmail</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4">
+                    <h6>Informacion</h6>
+                    <p>Edwin Villanueva Julca Estudiente de la carrera profesional de ingenieria de sistemas</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <p class="form-inline my-2 my-lg-0 justify-content-center">&copy; Edwin Villanueva Julca 2019</p>
+    </footer>
+
+
+    <!--Script de Boostrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
 </body>
 
 </html>
