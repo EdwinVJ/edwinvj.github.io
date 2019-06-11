@@ -8,6 +8,14 @@ header {
     z-index: 100;
 }
 
+#dris {
+    background: rgba(10, 10, 10, 0.1);
+}
+
+#gris {
+    background: rgba(10, 10, 10, 0.4)
+}
+
 img {
     max-width: 100%;
 }
